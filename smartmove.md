@@ -1,5 +1,7 @@
 class: center, middle
 
+[//]: # https://cicero.xyz/v3/remark/0.14.0/github.com/ryanjdillon/pres_smartmove/master/smartmove.md/#1
+
 # Neural network classification of harp seal body density
 
 ## Ryan J. Dillon
@@ -8,7 +10,7 @@ class: center, middle
 
 ## Overview
 
-![Project Overview](img/smartmove_diagram.png)
+<img src="img/smartmove_diagram.png" style="height:600px;">
 
 ---
 
@@ -32,7 +34,7 @@ for i in range(1, 101):
 
 Kaldfjord, Norway (just outside of Tromsø)
 
-![Study Area](img/study_area_composite.png)
+<img src="img/study_area_composite.png" style:"height:600px;">
 
 ---
 
