@@ -16,7 +16,9 @@ class: center, middle
 
 ## The idea
 
-Hydrodynamic model ([*Miller et al., 2015*](http://jeb.biologists.org/content/207/11/1953))
+Realtime measurements of body density (i.e. blubber) of wild seals could tell us lots about when, where, and how much fat they are depositing and thus individual and population health, breeding success, migration, etc.
+
+Hydrodynamic model ([*Miller et al., 2004*](http://jeb.biologists.org/content/207/11/1953))
 
 <img src="img/miller_equation.png" style="width: 100%;">
 
@@ -46,10 +48,10 @@ Hydrodynamic model ([*Miller et al., 2015*](http://jeb.biologists.org/content/20
 
 ## DSP of data
 
-Used Power Spectral Density plots to determing filter cutoff frequency
+Power Spectral Density plots used to determe filter cutoff frequency
 
-<img src="img/glide_psd_zoom.png" style="width:40%; align:left;">
-<img src="img/glide_acc-plot_zoom.png" style="width:40%; align:right;">
+<img src="img/glide_psd_zoom.png" style="width:49%; align:left;">
+<img src="img/glide_acc-plot_zoom.png" style="width:49%; align:right;">
 
 ---
 
@@ -65,8 +67,14 @@ Glides auto-detected:
 ---
 ## Input features and target value
 
-feature table
-density bin table
+<img src="img/table_ann_feature_descr.png" style="width:50%; align:left;">
+<img src="img/table_ann_target_descr.png" style="width:50%; align:right;">
+
+---
+
+## Hyperparameter tuning
+
+<img src="img/table_ann_params" style="width:80%; align:right;">
 
 ---
 
