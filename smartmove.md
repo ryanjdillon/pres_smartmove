@@ -32,18 +32,22 @@ Hydrodynamic model (*Miller et al., 2015*)
 
 ## Field experiments
 
-- Weights and floats attached to seals to simulate changes in body density
+.center[Weights and floats attached to seals to simulate changes in body density]
 
 <img src="http://bergen.ryandillon.net/coexist/seal.jpg" style="height:400px; display: block; margin-left: auto; margin-right: auto;">
 
 ---
 
+## DSP of data
+
 Used Power Spectral Density plots to determing filter cutoff frequency
 
-<img src="img/glide_psd_zoom.png" style="height:400px; display:inline-block;">
-<img src="img/glide_acc-plot_zoom.png" style="height:400px; display:inline-block;">
+<img src="img/glide_psd_zoom.png" style="height:300px; display:inline-block;">
+<img src="img/glide_acc-plot_zoom.png" style="height:300px; display:inline-block;">
 
 ---
+
+## Detection of glides
 
 Glides auto-detected:
 - Rate of accent (from depth sensor)
@@ -53,12 +57,18 @@ Glides auto-detected:
 <img src="img/subglide_highlight.png" style="height: 450px; display: block; margin-left: auto; margin-right: auto;">
 
 ---
+## Input features and target value
+
+feature table
+density bin table
+
+---
 
 ## Accuracy
 
-### 84.8%
+.center[84.8%]
 
-Model selected on classification accuracy on unseen test set
+.center[Model selected on classification accuracy on unseen test set]
 
 <img src="img/confusion-matrix.png" style="height: 400px; display: block; margin-left: auto; margin-right: auto;">
 
@@ -66,7 +76,7 @@ Model selected on classification accuracy on unseen test set
 
 ## Effect of Hyperparameters
 
-The only hyperparameters that affected accuracy wereL
+The only hyperparameters that affected accuracy were:
 - \# of hidden nodes
 - \# of hidden layers
 
@@ -118,7 +128,6 @@ Calibrate and restructure accelerometry and data logger data. [Github](https://g
 <img src="img/calibration_app.png" style="height: 450px; display: block; margin-left: auto; margin-right: auto;">
 
 ---
-
-
+class: center, middle
 
 ## Thank you! Questions?
