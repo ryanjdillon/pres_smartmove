@@ -61,7 +61,7 @@ Glides auto-detected:
 
 Model selected on classification accuracy on unseen test set
 
-<img src="img/confusion_matrix.png" style="height: 300px;">
+<img src="img/confusion-matrix.png" style="height: 300px;">
 
 ---
 
