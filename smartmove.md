@@ -67,6 +67,8 @@ Glides auto-detected:
 ---
 ## Input features and target value
 
+class: center, middle
+
 <img src="img/table_ann_feature_descr.png" style="width:49%; align:left;">
 <img src="img/table_ann_target_descr.png" style="width:30%; align:right;">
 
@@ -74,7 +76,9 @@ Glides auto-detected:
 
 ## Hyperparameter tuning
 
-<img src="img/table_ann_params.png" style="width:30%; display: block; margin-left: auto; margin-right: auto;">
+class: center, middle
+
+<img src="img/table_ann_params.png" style="width:40%; display: block; margin-left: auto; margin-right: auto;">
 
 ---
 
