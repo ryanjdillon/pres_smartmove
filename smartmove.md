@@ -68,13 +68,13 @@ Glides auto-detected:
 ## Input features and target value
 
 <img src="img/table_ann_feature_descr.png" style="width:49%; align:left;">
-<img src="img/table_ann_target_descr.png" style="width:40%; align:right;">
+<img src="img/table_ann_target_descr.png" style="width:30%; align:right;">
 
 ---
 
 ## Hyperparameter tuning
 
-<img src="img/table_ann_params.png" style="width:80%; align:right;">
+<img src="img/table_ann_params.png" style="width:30%; display: block; margin-left: auto; margin-right: auto;">
 
 ---
 
