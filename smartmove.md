@@ -65,18 +65,18 @@ Glides auto-detected:
 <img src="img/subglide_highlight.png" style="height: 400px; display: block; margin-left: auto; margin-right: auto;">
 
 ---
-## Input features and target value
-
 class: center, middle
+
+## Input features and target value
 
 <img src="img/table_ann_feature_descr.png" style="width:49%; align:left;">
 <img src="img/table_ann_target_descr.png" style="width:30%; align:right;">
 
 ---
+class: center, middle
 
 ## Hyperparameter tuning
 
-class: center, middle
 
 <img src="img/table_ann_params.png" style="width:40%; display: block; margin-left: auto; margin-right: auto;">
 
