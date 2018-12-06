@@ -3,7 +3,10 @@ class: center, middle
 # Neural network classification of harp seal body density
 
 ## Ryan J. Dillon
-### Co-authors: Mario Acquarone, Kagari Aoki, Marie-Anne Blanchet, Lars P. Folkow, Patrick Miller, Erling S. Nordøy, Katsufumi Sato, Pauke C. Schots, Ippei Suzuki, JoLynn Carroll, Martin Biuw
+
+University of Tromsø, Akvaplan-Niva, ArcEx
+
+**Co-authors:** Mario Acquarone, Kagari Aoki, Marie-Anne Blanchet, Lars P. Folkow, Patrick Miller, Erling S. Nordøy, Katsufumi Sato, Pauke C. Schots, Ippei Suzuki, JoLynn Carroll, Martin Biuw
 
 
 [ ](https://cicero.xyz/v3/remark/0.14.0/github.com/ryanjdillon/pres_smartmove/master/smartmove.md)
@@ -13,7 +16,7 @@ class: center, middle
 
 ## The idea
 
-Hydrodynamic model (*Miller et al., 2015*)
+Hydrodynamic model ([*Miller et al., 2015*](http://jeb.biologists.org/content/207/11/1953))
 
 <img src="img/miller_equation.png" style="width: 100%;">
 
@@ -45,8 +48,8 @@ Hydrodynamic model (*Miller et al., 2015*)
 
 Used Power Spectral Density plots to determing filter cutoff frequency
 
-<img src="img/glide_psd_zoom.png" style="height:400px; align=left;">
-<img src="img/glide_acc-plot_zoom.png" style="height:400px; align=right;">
+<img src="img/glide_psd_zoom.png" style="width:40%; align:left;">
+<img src="img/glide_acc-plot_zoom.png" style="width:40%; align:right;">
 
 ---
 
