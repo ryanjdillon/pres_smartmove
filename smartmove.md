@@ -3,16 +3,19 @@ class: center, middle
 # Neural network classification of harp seal body density
 
 ## Ryan J. Dillon
+### Co-authors: Mario Acquarone, Kagari Aoki, Marie-Anne Blanchet, Lars P. Folkow, Patrick Miller, Erling S. Nordøy, Katsufumi Sato, Pauke C. Schots, Ippei Suzuki, JoLynn Carroll, Martin Biuw
+
 
 [ ](https://cicero.xyz/v3/remark/0.14.0/github.com/ryanjdillon/pres_smartmove/master/smartmove.md)
 
 ---
+class: center, middle
 
 ## The idea
 
 Hydrodynamic model (*Miller et al., 2015*)
 
-<img src="img/miller_equation.png" style="width: 80%; display: block; margin-left: auto; margin-right: auto;">
+<img src="img/miller_equation.png" style="width: 100%;">
 
 ---
 
@@ -42,8 +45,8 @@ Hydrodynamic model (*Miller et al., 2015*)
 
 Used Power Spectral Density plots to determing filter cutoff frequency
 
-<img src="img/glide_psd_zoom.png" style="height:300px; display:inline-block;">
-<img src="img/glide_acc-plot_zoom.png" style="height:300px; display:inline-block;">
+<img src="img/glide_psd_zoom.png" style="height:400px; align=left;">
+<img src="img/glide_acc-plot_zoom.png" style="height:400px; align=right;">
 
 ---
 
@@ -54,7 +57,7 @@ Glides auto-detected:
 - Stroke frequency (under specified frequency animal is gliding)
 - Glides subdivided to 2second intervals
 
-<img src="img/subglide_highlight.png" style="height: 450px; display: block; margin-left: auto; margin-right: auto;">
+<img src="img/subglide_highlight.png" style="height: 400px; display: block; margin-left: auto; margin-right: auto;">
 
 ---
 ## Input features and target value
@@ -66,7 +69,7 @@ density bin table
 
 ## Accuracy
 
-.center[84.8%]
+.center[**84.8%**]
 
 .center[Model selected on classification accuracy on unseen test set]
 
@@ -76,7 +79,7 @@ density bin table
 
 ## Effect of Hyperparameters
 
-The only hyperparameters that affected accuracy were:
+Hyperparameters that affected accuracy:
 - \# of hidden nodes
 - \# of hidden layers
 
